@@ -1,0 +1,160 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+}
+
+:root {
+    --color-brand-dark: #011C44;
+    --color-brand-light: #2B7FFF;
+    --color-primary-light: #FFFFFF;
+    --color-primary-gray: #747272;
+}
+
+/* Global */
+body {
+    background-color: #bdd2f1;
+    color: var(--color-brand-dark);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+address {
+    font-style: normal;
+}
+
+/* Link section */
+.link-header {
+    color: var(--color-brand-dark);
+    text-decoration: none;
+}
+
+.link-header:hover {
+    color: var(--color-brand-light);
+    font-weight: 700;
+}
+
+.link-img {
+    text-decoration: none;
+}
+
+.link-footer {
+    color: var(--color-primary-light);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.link-footer:hover {
+    color: var(--color-brand-light);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Button */
+.button {
+    color: var(--color-primary-light);
+    font-weight: 600;
+    background-color: var(--color-brand-light);
+    border: 2px solid var(--color-brand-light);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: var(--color-brand-dark);
+    background-color: transparent;
+}
+
+.button-description {
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Hero section*/
+.hero-title {
+    color: var(--color-brand-light);
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 0.8;  
+}
+
+.title-section {
+    color: var(--color-brand-dark);
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.1;
+}
+
+.accent {
+    color: var(--color-brand-light);
+}
+
+.accent-in-text {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.about-text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.services-title {
+    color: var(--color-primary-light);
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+}
+
+.contact-form-title {
+    color: var(--color-primary-light);
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.1;
+}
+
+.why-as-list {
+    line-height: 1.5;
+    text-align: center;
+}
+
+.button-description {
+    color: var(--color-primary-gray);
+    line-height: 1.5;
+}
+
+.accent-politic {
+    color: var(--color-primary-gray);
+}
+
+/* footer */
+.address-link {
+    color: var(--color-primary-light);
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.address-link:hover {
+    color: var(--color-brand-light);
+}
+
+.address-copyright {
+    font-size: 13px;
+    color: var(--color-primary-gray);
+}
